@@ -1,0 +1,29 @@
+{
+  "name": "big-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint --ext .ts,.js,.jsx,.tsx --fix --quiet ./packages",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": ">=18.14.0",
+    "pnpm": ">=8.3.1"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.6.1",
+    "@commitlint/config-conventional": "^17.6.1",
+    "@typescript-eslint/eslint-plugin": "^5.59.0",
+    "@typescript-eslint/parser": "^5.59.0",
+    "commitlint": "^17.6.1",
+    "eslint": "^8.39.0",
+    "eslint-plugin,": "link:@typescript-eslint/eslint-plugin,",
+    "eslint-plugin-prettier": "^4.2.1",
+    "husky": "^8.0.3",
+    "prettier": "^2.8.8"
+  }
+}
